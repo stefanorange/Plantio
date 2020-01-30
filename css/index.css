@@ -1,0 +1,212 @@
+html {
+  background-color: #dbdbdb3b;
+}
+
+.nav-link {
+  text-align: right !important;
+}
+
+.nav-item {
+  color:  #df9902 !important;
+}
+
+.navbar-nav a:visited {
+  color: #df9902 !important;
+}
+
+.navbar-nav {
+  color: #df9902 !important;
+}
+
+.navbar-nav a:hover {
+  color: #dfdfdf !important;
+}
+
+.navbar-nav{
+  margin-inline-start: auto;
+  margin-right: 20px !important;
+  margin-top: 10px !important;
+}
+
+.navbar-brand{
+  margin-left: 20px;
+}
+
+
+body{
+  background-color: transparent;
+}
+
+
+.social{
+  margin-left:100px;
+  float: left;
+  position: fixed;
+  color: #df9902;
+  z-index: 10;
+}
+
+.fab {
+  font-size: 18px;
+  margin-top: 8px;
+  padding: 5px;
+  color: #df9902;
+}
+
+.fab:hover {
+  color: #dfdfdf;
+}
+
+.page-footer{
+  background-color: #343a40;
+  background-image: url('StefPortraitFinal.png');
+  background-blend-mode: overlay;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #dbdbdb;
+}
+
+.bgimage {
+  width:100%;
+  height:500px;
+  background: url('https://stef.zenfolio.com/img/s/v-10/p3754184190.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  margin-top: 75px;
+}
+.bgimage h5 {
+  color:#343a40;
+  text-align: center;
+  margin-top: 125px;
+  font-size: xx-large;
+}
+
+.bgimage p {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.btn-primary {
+  background-color:#df9902 !important;
+  border-color: rgb(211, 211, 211) !important;
+}
+
+.btn-primary:hover, btn-primary:focus, btn-primary:active {
+  color: rgb(211, 211, 211) !important;
+  background-color: #797979 !important;
+  border-color: #8b8b8b !important;
+}
+
+.card-deck {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+
+.card{
+  background-color: transparent;
+  text-align: center;
+  border-color: transparent !important;
+}
+
+
+.col-md-6{
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+
+.col-md-12{
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+
+.footer a:visited, footer a { 
+color: #df9902;
+}
+
+.footer a:any-link, footer a:active, footer a:hover {
+  color: #dfdfdf;
+  }
+
+.card-title a:visited, card-title a{
+  color: #df9902 !important;
+}
+
+.card-title a:hover, card-title a:focus{
+  color: #343a40 !important;
+}
+
+.detail{
+  padding-left:5%!important;
+  padding-right:5%!important;
+  text-align: left;
+}
+
+.top-detail{
+  padding-top: 75px;
+}
+
+.mb-4 {
+  padding-top: 75px;
+}
+
+.text-md-left{
+  padding-left: 3% !important;
+}
+
+
+span a {
+	font-size: 18px;
+	color: transparent;
+	text-decoration: none;
+	margin: 0 10px;
+	transition: all 0.4s ease-in-out;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+.avatar {
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.avatar img {
+  width: 100%;
+  height: auto;
+}
+
+
+.content {
+	width: 100%;
+	max-width: 600px;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
