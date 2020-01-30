@@ -158,48 +158,6 @@ color: #df9902;
 }
 
 
-span a {
-	font-size: 18px;
-	color: transparent;
-	text-decoration: none;
-	margin: 0 10px;
-	transition: all 0.4s ease-in-out;
-}
-
-@keyframes float {
-	0% {
-		transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(-20px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
-}
-
-
-.avatar {
-	width: 60px;
-	height: 60px;
-	overflow: hidden;
-	transform: translatey(0px);
-	animation: float 6s ease-in-out infinite;
-}
-
-.avatar img {
-  width: 100%;
-  height: auto;
-}
-
-
-.content {
-	width: 100%;
-	max-width: 600px;
-	padding: 20px 40px;
-	box-sizing: border-box;
-	text-align: center;
-}
 
 
 
